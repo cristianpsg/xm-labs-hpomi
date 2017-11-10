@@ -14,12 +14,12 @@ The xMatters product features a self-service web user interface to allow accurat
 
 # Pre-Requisites
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
-* xMatters integration agent 5.1.8 - Download and documentation [here](https://support.xmatters.com/hc/en-us/articles/201463419-Integration-Agent-for-xMatters-5-x-xMatters-On-Demand) **NOTE** The agent must be on a separate box from OMi!! 
+* xMatters integration agent 5.1.8 - Download and documentation [here](https://support.xmatters.com/hc/en-us/articles/201463419-Integration-Agent-for-xMatters-5-x-xMatters-On-Demand). **NOTE** The agent must be on a separate box from OMi!! 
 * HP OMi (Tested with OMi 10)
 
 
 # Files
-* [xM_HP_OMi_3_0_1.zip](xM_HP_OMi_3_0_1.zip) - Zip file containing all necessary files: Comm Plan, Integration Agent files and Remedy files
+* [xM_HP_OMi_3_0_1.zip](xM_HP_OMi_3_0_1.zip) - Zip file containing all necessary files: Comm Plan and Integration Agent files.
 * [xm-hp-omi-v30.pdf](xm-hp-omi-v30.pdf) - Documentation pdf for all installation steps. 
 
 # How it works
