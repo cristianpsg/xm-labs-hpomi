@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+ | EventDeduplicator Configuration file.
+ |
+ | Filter attributes
+ |   attribute: predicates
+ |   comments : a list of predicates that are considered relevant for the purpose of correlation
+ |
+ |   attribute: suppression_period
+ |   comments : the length of time in seconds for which to supress duplicates
+ |
+ |   attribute: window_size
+ |   comments : the maximum number of events to record
+ +-->
+<deduplicator xmlns="http://www.alarmpoint.com/schema">
+  <!-- Filter to prevent duplicate HP OMi events injecting more often than once every 12 hours -->
+    <filter name="hpomi-3-0">
+    <predicates>
+      <predicate>node</predicate>
+      <predicate>node_groups</predicate>
+      <predicate>msg_text</predicate>
+      <predicate>msg_source</predicate>
+      <predicate>application</predicate>
+    </predicates>
+    <suppression_period>30</suppression_period>
+    <window_size>100</window_size>
+  </filter>
+</deduplicator>
