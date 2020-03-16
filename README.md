@@ -9,7 +9,9 @@ During the process, every notification, response, and action is logged in xMatte
 The xMatters product features a self-service web user interface to allow accurate assignment of responsible personnel for each job. xMatters also includes a Subscription panel that allows both managed and self-subscription to HP OMi events. 
 
 <kbd>
-  <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+<a href="https://support.xmatters.com/hc/en-us/community/topics">
+   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
+</a>
 </kbd>
 
 # Pre-Requisites
@@ -19,7 +21,7 @@ The xMatters product features a self-service web user interface to allow accurat
 
 
 # Files
-* [xM_HP_OMi_3_0_1.zip](xM_HP_OMi_3_0_1.zip) - Zip file containing all necessary files: Comm Plan and Integration Agent files.
+* [xM_HP_OMi_3_0_1.zip](xM_HP_OMi_3_0_1.zip) - Zip file containing all necessary files: Workflow and Integration Agent files.
 * [xm-hp-omi-v30.pdf](xm-hp-omi-v30.pdf) - Documentation pdf for all installation steps. 
 
 # How it works
